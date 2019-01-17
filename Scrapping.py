@@ -16,7 +16,7 @@ soup = BeautifulSoup(page,"html.parser")
 name_box = soup.find("ol", attrs={"class": "list gaEvent"})
 
 #save it in csv
-filename='k.csv'
+filename=x+'.csv'
 f=open(filename,'w')
 headers='terms'
 f.write(headers)
